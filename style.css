@@ -1,166 +1,164 @@
 html,
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
 }
 
 .home {
-    background-image: url(./images/kelli-mcclintock-OIfNKZCTqDQ-unsplash.jpg);
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
+  background-image: url(./images/kelli-mcclintock-OIfNKZCTqDQ-unsplash.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 60vw;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-top-left-radius: 20px;
-    padding: 59px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-bottom-left-radius: 20px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 60vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top-left-radius: 20px;
+  padding: 59px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom-left-radius: 20px;
 }
 
 .grid {
-    margin-bottom: 30vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+  /* margin-bottom: 30vh; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .grid div {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: auto;
-    font-size: 12px; 
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    /* display: inline; */
-    margin: 20px;
-    /* width: fit-content; */
-    height: 80px;
-    width: 80px;
-   
-    align-items: center;
-    justify-content: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: auto;
+  font-size: 12px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* display: inline; */
+  margin: 20px;
+  /* width: fit-content; */
+  height: 80px;
+  width: 80px;
+
+  align-items: center;
+  justify-content: center;
 }
 
+.link {
+  color: #a149fa;
+  font-size: x-large;
+  text-decoration: none;
+}
 
+.contact {
+  margin-top: 190px;
+}
 
 @media screen and (max-width: 700px) {
-    .grid div {
-        width: 100%;
-        margin: 10px;
-    }
-        .grid {
-            margin-bottom: 0px;
-            width: 100%;
-            flex-direction: column;
-        }
-        #days,
-        #hours,
-        #minutes,
-        #seconds {
-            font-size: x-large;
-            font-weight: bold;
-    
-        }
-        .contact{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            margin: auto;
-            padding: 10px;
-
-        }
+  .grid div {
+    width: 100%;
+    margin: 10px;
+  }
+  .grid {
+    margin-bottom: 0px;
+    width: 100%;
+    flex-direction: column;
+  }
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 190px;
+    padding: 10px;
+  }
 }
-
-
 
 #days,
 #hours,
 #minutes,
 #seconds {
-    font-size: xx-large;
-    font-weight: bold;
-
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 .builder {
-    font-weight: bolder;
-    font-size: 50px;
-    margin-bottom: 30px;
-
+  font-weight: bolder;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
 .cons {
-    font-weight: 500;
-    color: #38372d;
-    font-size: medium;
-    margin-bottom: 40px;
-
-
+  font-weight: 500;
+  color: #38372d;
+  font-size: medium;
+  margin-bottom: 40px;
 }
 
 .email,
 .get-notified {
-    margin-right: 5px;
-    border-radius: 5px;
-    padding: 15px 25px;
-    border: none;
+  margin-right: 5px;
+  border-radius: 5px;
+  padding: 15px 25px;
+  border: none;
 }
 
 .email {
-    background-color: #EEEEEE;
-    color: #38372d;
-    border-color: #acaaaa;
-    border: 1px solid ;
+  background-color: #eeeeee;
+  color: #38372d;
+  border-color: #acaaaa;
+  border: 1px solid;
 }
 
 .get-notified {
-    color: white;
-    background-color: #A149FA;
-    border-color: #A149FA;
-    
+  color: white;
+  background-color: #a149fa;
+  border-color: #a149fa;
 }
 
 .get-notified:hover {
-    opacity: 0.7;
-    cursor: pointer;
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 .get-notified:active {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .contact,
 .spam {
-    color: #38372d;
-    opacity: 0.7;
-    margin-bottom: 15px;
+  color: #38372d;
+  opacity: 0.7;
+  margin-bottom: 15px;
 }
 
 .social-media {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    width: 150px;
-    margin: auto;
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 150px;
+  margin: auto;
 }
