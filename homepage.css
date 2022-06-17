@@ -1,0 +1,66 @@
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'League Spartan', sans-serif
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pics {
+    background-image: url(./images-art/pexels-leah-kelley-6480707.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 60%;
+}
+
+.text {
+    background-color: white;
+    width: 40%;
+    height: 70%;
+    padding: 60px 50px;
+}
+
+.bottom {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    
+
+}
+
+.bottom div {
+    width: 33%;
+    
+}
+
+.image1 {
+    background-image: url(./images-art/pexels-chait-goli-3991265.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.text1 {
+    padding: 20px;
+}
+
+.image2 {
+    background-image: url(./images-art/pexels-malidate-van-833046.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+}
