@@ -1,6 +1,6 @@
 const countDown = () => {
-  const countDate = new Date("June 17, 2022 05:30:00").getTime();
-  console.log(countDate);
+  const countDate = new Date("June 18, 2022 05:30:00").getTime();
+  console.log(countDate)
   const now = new Date().getTime();
   const difference = countDate - now;
 
@@ -23,6 +23,8 @@ const countDown = () => {
   if (difference < 0) {
     clearInterval(countDown);
     document.querySelector(".link").style.display = "block";
+    document.querySelector(".cons").style.display = "none";
+    document.querySelector("#cons").textContent = "00";
     document.querySelector("#days").textContent = "00";
     document.querySelector("#hours").textContent = "00";
     document.querySelector("#minutes").textContent = "00";

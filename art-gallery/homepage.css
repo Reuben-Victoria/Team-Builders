@@ -1,0 +1,147 @@
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'League Spartan', sans-serif
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pics {
+    background-image: url(./images-art/pexels-leah-kelley-6480707.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 60%;
+    display: inline;
+}
+.pics-about {
+    background-image: url(./images-art/pexels-jonathan-borba-4635231.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 60%;
+}
+.read, div, a{
+    display: inline-block;
+}
+.room{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+.ho,.ab,.co{
+    color: rgb(36, 36, 148);
+    margin-right: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+.text {
+    background-color: rgb(252, 232, 247);
+    width: 40%;
+    height: 60%;
+    color: hsl(0, 0%, 27%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 20px 25px 65px;
+    
+    
+}
+.text-contact{
+    margin-right: 25px;
+    margin-top: 30px;
+}
+#heading1{
+    width: 500px;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+#info1{
+    line-height: 25px;
+    font-size: 16px;
+    width: 500px;
+    margin-bottom: 25px;
+
+}
+
+.bottom {
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+
+.bottom div {
+    width: 100%;
+    height: 100%; 
+}
+.image1 {
+    background-image: url(./images-art/pexels-chait-goli-3991265.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.image1-about{
+    background-image: url(./images-art/pexels-dmitry-zvolskiy-2082092\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.image1-contact {
+    background-image: url(./images-art/pexels-pixabay-271614.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.text1 {
+    padding: 50px 20px 20px 30px;
+    color: hsl(0, 0%, 23%);
+    width: 500px;
+}
+#heading2{
+    font-size:x-large;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#info2{
+    font-size: 16px;
+    line-height: 25px;
+   
+    
+}
+.image2 {
+    background-image: url(./images-art/pexels-malidate-van-833046.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.image2-about{
+    background-image: url(./images-art/pexels-vincent-rivaud-2471188.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.image2-contact {
+    background-image: url(./images-art/pexels-naim-benjelloun-2030119.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}

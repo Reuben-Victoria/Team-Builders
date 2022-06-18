@@ -60,7 +60,12 @@ body {
 .link {
   color: #a149fa;
   font-size: x-large;
+  margin-top: 100px;
   text-decoration: none;
+}
+.link:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .contact {
@@ -70,7 +75,7 @@ body {
 @media screen and (max-width: 700px) {
   .grid div {
     width: 100%;
-    margin: 10px;
+    margin: 5px;
   }
   .grid {
     margin-bottom: 0px;
@@ -90,10 +95,16 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-top: 190px;
+    margin: 0px;
+    /* margin: auto; */
+    margin-top: 15px;
     padding: 10px;
   }
+    .spam {
+      color: #38372d;
+      opacity: 0.7;
+      margin: 30px;
+    }
 }
 
 #days,
